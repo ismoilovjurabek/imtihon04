@@ -1,0 +1,51 @@
+.hero-container {
+    display: flex;
+    gap: 50px;
+    color: rgb(255, 255, 255);
+}
+
+.side-list {
+    width: 200px;
+    color: rgb(255, 255, 255);
+    display: block;
+    border-bottom: 1px solid white;
+    margin-bottom: 20px;
+}
+
+.side-item {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.hero-list {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.hero-item {
+    padding: 10px 20px;
+    background-color: rgba(66, 66, 66, 0.56);
+    border-radius: 25px;
+}
+
+.card {
+    width: 377px;
+    height: 90px;
+    margin-left: -490px;
+    margin-top: 90px;
+}
+
+
+.hero-body {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.card {
+    color: white;
+}

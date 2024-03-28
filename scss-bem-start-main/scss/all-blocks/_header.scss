@@ -1,0 +1,48 @@
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    margin-bottom: 30px;
+}
+
+
+.header-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 5px;
+    margin-top: 30px;
+}
+
+#searchinput {
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-left: 300px;
+    margin-top: -30px;
+    padding: 10px 150px;
+    margin-bottom: 30px;
+    border: 1px solid rgb(66, 66, 66);
+    font-size: 20px;
+}
+
+.header-account {
+   margin-top: -60px;
+   margin-bottom: 30px;
+}
+
+ol,ul {
+    list-style: none;
+}
+
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+}
+
+.frame {
+    margin-left: 1000px;
+}

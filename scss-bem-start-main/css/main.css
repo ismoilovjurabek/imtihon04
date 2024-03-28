@@ -1,0 +1,116 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(33, 33, 33);
+  font-family: sans-serif;
+}
+
+.container {
+  width: 100vw;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+  margin-bottom: 30px;
+}
+
+.header-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: 5px;
+  margin-top: 30px;
+}
+
+#searchinput {
+  background-color: transparent;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  margin-left: 300px;
+  margin-top: -30px;
+  padding: 10px 150px;
+  margin-bottom: 30px;
+  border: 1px solid rgb(66, 66, 66);
+  font-size: 20px;
+}
+
+.header-account {
+  margin-top: -60px;
+  margin-bottom: 30px;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+}
+
+.frame {
+  margin-left: 1000px;
+}
+
+.hero-container {
+  display: flex;
+  gap: 50px;
+  color: rgb(255, 255, 255);
+}
+
+.side-list {
+  width: 200px;
+  color: rgb(255, 255, 255);
+  display: block;
+  border-bottom: 1px solid white;
+  margin-bottom: 20px;
+}
+
+.side-item {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.hero-list {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.hero-item {
+  padding: 10px 20px;
+  background-color: rgba(66, 66, 66, 0.56);
+  border-radius: 25px;
+}
+
+.card {
+  width: 377px;
+  height: 90px;
+  margin-left: -490px;
+  margin-top: 90px;
+}
+
+.hero-body {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.card {
+  color: white;
+}/*# sourceMappingURL=main.css.map */
